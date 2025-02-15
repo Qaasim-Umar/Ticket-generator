@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  background: radial-gradient(52.52% 32.71% at 50% 97.66%, rgba(36, 160, 181, 0.20) 0%, rgba(36, 160, 181, 0.00) 100%), #02191D;
+
+}
+
+.app-container {
+  margin: auto;
+  margin-top: 100px;
+  width: 700px;
+  padding: 48px;
+  border-radius: 24px;
+border: 1px solid #0E464F;
+background: #041E23;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+
+.error {
+  color: rgb(240, 228, 228);
+  font-size: 12px;
+}
+
+.avatar-preview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.ticket {
+  background: #fffae6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.image-container{
+  border-radius: 32px;
+border: 1px solid #0E464F;
+background: #08252B;
+
+
+padding: 24px 24px 48px 24px;
+}
+
+.image-container-text{
+  color: var(--color-grey-98, #FAFAFA);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+
+.box{
+border: 1px solid #0E464F;
+background: #041E23;
+height: 150px;
+position: relative;
+}
+
+.image{
+height: 180px;
+position: absolute;
+top: -13px;
+left: 38%;
+
+
+}
+
+.enterName{
+  color: var(--color-grey-98, #FAFAFA);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+.enterNameField{
+  border-radius: 12px ;
+border: 1px solid #07373F;
+height: 48px;
+padding-left:5px;
+align-items: center;
+background:#041E23;
+color: white;
+}
+
+.textField{
+  border-radius: 12px ;
+  border: 1px solid #07373F;
+  height: 48px;
+  padding-left:5px;
+  align-items: center;
+  background:#041E23;
+  color: white; 
+  height: 127px;
+  padding-left: 15px;
+}
+.detailsButton{
+  display:flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.detailsBackButton{
+  border-radius:8px;
+  border: 1px solid #24A0B5;
+display: flex;
+padding: 12px;
+justify-content: center;
+align-items: center;
+background:#041E23;
+color: #24A0B5;
+width: 50%;
+}
+
+.detailsGetButton{
+  border-radius:8px;
+  background: #24A0B5;
+  width: 50%;
+  display: flex;
+padding: 24px;
+justify-content: center;
+align-items: center;
+color: #FFFFFF;
+
+
+
+font-family: JejuMyeongjo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
